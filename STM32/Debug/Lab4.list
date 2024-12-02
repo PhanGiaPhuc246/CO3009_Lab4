@@ -1576,8 +1576,8 @@ void HAL_UART_MspInit(UART_HandleTypeDef* huart)
     GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
  8000a6c:	2300      	movs	r3, #0
  8000a6e:	617b      	str	r3, [r7, #20]
-    GPIO_InitStruct.Pull = GPIO_PULLDOWN;
- 8000a70:	2302      	movs	r3, #2
+    GPIO_InitStruct.Pull = GPIO_NOPULL;
+ 8000a70:	2300      	movs	r3, #0
  8000a72:	61bb      	str	r3, [r7, #24]
     HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
  8000a74:	f107 0310 	add.w	r3, r7, #16

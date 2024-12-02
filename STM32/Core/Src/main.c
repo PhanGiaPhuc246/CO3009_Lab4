@@ -34,6 +34,8 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+//#define SCH_TIM2TICK 10
+//#define SCH_TIM3TICK 500
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
